@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+
+}
+.input-padding {
+    padding: 6px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 3px 0;
+	vertical-align:middle;
+}
+.main-box
+{
+	width:100%;
+	
+}
+/* header portion*/
+.header
+{
+	width:100%;
+	margin:0px;
+	padding:2.5em 5em;
+	background:#ffffff;
+	border-bottom:1px solid #ededed;
+}
+.header-left
+{
+	width:40%;
+	float:left;
+	vertical-align:middle;
+	
+}
+.header-left a
+{
+	width:40%;
+	float:left;
+	vertical-align:middle;
+	text-decoration: none;
+	
+}
+.fa-book
+{
+	font-size:20px;
+	font-color:#8e8e8e;
+	
+}
+
+.header-right
+{
+	width:60%;
+	float:right;
+	vertical-align:middle;
+}
+
+.header-right input[type="text"]
+{
+	 padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 3px 0;
+	width:40%;
+	
+} 
+.header-right input[type="submit"]
+{
+	background-color:#1b8cce;
+	border-radius: 25px;
+	width:80px;
+	color:white;
+}
+.header-right a
+{
+	padding: 0px 3em;
+	font-size:20px;
+	color:gray;
+	text-decoration:none;
+}
+
+/*haeder ends*/
+/* navigation start*/
+.nav
+{
+	width:100%;
+	margin:0px;
+	padding:2.5em 10em;
+	background:#ffffff;
+	border-bottom:1px solid #ededed;
+}
+.nav ul li
+{
+	list-style:none;
+	display:inline;
+	padding:0px 40px;
+	cursor:pointer;
+}
+.nav ul li a
+{
+	color:#2f2f2f;
+	font-size:16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration:none;
+	
+}
+.nav ul li a:hover
+{
+	color:#2f2f2f;
+	font-size:16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	border-bottom: 2px solid #1b8cce;
+}
+/*navigation ends*/
+/*banner start*/
+.banner
+{
+	width:100%;
+	margin:0px;
+	background:#278bc6;
+	
+}
+.banner img{
+	
+	opacity: 0.2;
+	background:blue;
+}
+
+.banner-outer
+{
+position: absolute;
+top: 0px;
+width: 100%;
+transform: translateY(300px);
+	
+}
+.banner-inner
+{	padding:0px 10em;
+	margin: 0 auto;
+	text-align:center;
+}
+.banner-inner h1
+{	
+	color:white;
+}
+/*banner ends*/

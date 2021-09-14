@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login and sigup page</title>
+	<link rel="icon" class="fa fa-book">
+	<link rel="stylesheet" href="../css/loginstyle.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/reset.css">
+</head>
+
+<body>
+	<div class="main-box">
+		<!--header portion-->
+		<div class="header">
+				<div class="header-left">
+					<a href="index.html" alt="booklogo" class="fa fa-book"> <span>BOOKSHOP</span></a>
+				</div>
+				<div class="header-right">
+					<form name="error" action="error.html">
+						<input class="input-padding" type="text" name="search" placeholder="  Search over 30 million book title" required>
+						<input type="submit" value="submit">
+						<a href="#" alt="cartlogo" class="fa fa-shopping-cart" ></a>
+						<a href="login.html" alt="cartlogo" class="fa  fa-user" ></a>
+						</form>
+				</div></div>
+		<!--header portion ends-->
+	<!-- navigation portion start-->	
+		<div class="nav">
+				<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="book.html">Books</a></li>
+			<li><a href="#">Magazines</a></li>
+					<li><a href="recomendedbook.html">Recomended</a></li>
+			<li><a href="sale.html">Sale</a></li>
+			<li><a href="aboutus.html">About us</a></li>
+			<li><a href="contactus.html">Contact us</a></li>
+			
+			</ul>
+			
+		</div>
+		
+		<!-- navigation portion ends-->
+		
+		<!-- login form start-->
+	<div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Username </label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign In">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<a href="#forgot">Forgot Password?</a>
+				</div>
+			</div>
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Repeat Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Email Address</label>
+					<input id="pass" type="text" class="input">
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign Up">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-1">Already Member?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<!-- login form ends-->
+		
+		<!-- footer start-->
+	
+<div class="fotter-address">
+	<div class="fotter-address-in-text">
+		<h3>BOOKSHOP</h3>
+		<p>This website create by the student of </p><p>Sharda University, Greater Noida</p>
+					</div>
+	<div class="fotter-address-in-text">
+				<h3>ABOUT SHARDA</h3>
+					</div>
+	<div class="fotter-address-in-text">
+				<h3>ABOUT STUDENT</h3>
+					</div>
+	<div class="fotter-address-in-text">
+				<h3>ABOUT GROUP</h3>
+					</div>
+</div>
+<div class="footer">
+		&copy; BOOKSHOP
+</div>
+	</div>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBkGxLOUaIU1glRxIJo04vGNHCw2x4GpcY",
+    authDomain: "ebooks-3f10b.firebaseapp.com",
+    databaseURL: "https://ebooks-3f10b.firebaseio.com",
+    projectId: "ebooks-3f10b",
+    storageBucket: "ebooks-3f10b.appspot.com",
+    messagingSenderId: "793365178997",
+    appId: "1:793365178997:web:58c2379c3c8823675f663c",
+    measurementId: "G-XECQ2KSGEZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>

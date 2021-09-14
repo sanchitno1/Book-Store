@@ -1,0 +1,65 @@
+/* ********************************************* Start Common Css ******************************************************* */ 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+select, input, textarea { -webkit-appearance:none; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+.clear { clear:both; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+/* Alignment */
+.alignleft { display: inline; float: left; margin-right: 1em !important; }
+.alignright { display: inline; float: right; margin-left: 1em !important; }
+.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; }
+img.alignleft, img.alignright, img.aligncenter { margin-bottom: 1.625em; }
+/* =Global
+----------------------------------------------- */
+
+h1 { font-size:30px; }
+h2 { font-size:33px; line-height:36px; }
+h3 { font-size:30px; line-height:34px; }
+h4 { font-size:20px; }
+h5 { font-size:16px; }
+h6 { font-size:14px; }
+hr { background-color: #ccc; border: 0; height: 1px; margin-bottom: 1.625em; }
+/* Text elements */
+p { margin-bottom: 0; }
+ul,li,ol{list-style:none; margin:0; padding:0;}
+dl { margin: 0 1.625em; }
+dt { font-weight: bold; }
+dd { margin-bottom: 1.625em; }
+strong { font-weight: bold; }
+cite, em, i { font-style: italic; }
+blockquote { font-style: italic; font-weight: normal; margin: 0 3em; }
+blockquote em, blockquote i, blockquote cite { font-style: normal; }
+blockquote cite { color: #666; font-weight: 300; letter-spacing: 0.05em; text-transform: uppercase; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+a img { border: 0; display: inline-block;vertical-align: middle;}
+pre { background: #f4f4f4; line-height: 1.5; margin-bottom: 1.625em; overflow: auto; padding: 0.75em 1.625em; }
+sup, sub { font-size: 10px; height: 0; line-height: 1; position: relative; vertical-align: baseline; }
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+small{font-size: 80%;}
+/* Links */
+a { color: #1982d1; text-decoration: none; }
+a:focus, a:active, a:hover { text-decoration: none; }
+:focus {/* remember to define focus styles! */ outline: 0; }
+table {/* tables still need 'cellspacing="0"' in the markup */ border-collapse: separate; border-spacing: 0; }
+caption, th, td { font-weight: normal; text-align: left; }
+
+/* ********************************************* End Common Css ******************************************************* */ 
+
+/* ******************************************* Start Template Css **************************************************** */
